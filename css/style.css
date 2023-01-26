@@ -1,0 +1,42 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+body {
+    background-color: #083b4c !important;
+}
+
+/* style */
+
+#container-fizzbuzz {
+    gap: 10px;
+    list-style: none;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    background-color: #1389b2;
+}
+
+.box-fizz {
+
+    background-color: #0cd6a1;
+}
+
+.box-buzz {
+
+    background-color: #ffd166;
+}
+
+.box-fizzbuzz {
+
+    background-color: #f0466f;
+}
